@@ -25,3 +25,7 @@ body {
 a:link {
     color:lightblue;
 }
+
+a:visited {
+    color:lightgray;
+}
