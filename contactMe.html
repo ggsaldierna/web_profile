@@ -8,12 +8,17 @@
 </head>
 <body>
     <div align="center">
-        <a href="./index.html"><img src="homeButton.png" width="200" height="200" /></a>
-        <h3>Contact Information</h3>
+        <a href="./index.html"><img id="custom" src="homeButton.png" width="200" height="200" /></a>
+        <h1 style="color:white">Contact Information</h1>
 
-        <p> 1580 Sutro Street Reno, NV 89512 | <a href="mailto:ggarciasaldierna@nevada.unr.edu">ggarciasaldierna@nevada.unr.edu</a> | (775) 338-0472</p>
+        <p> 
+            1580 Sutro Street Reno, NV 89512 | <a href="mailto:ggarciasaldierna@nevada.unr.edu">ggarciasaldierna@nevada.unr.edu</a> 
+            | (775) 338-0472
+        </p><br />
 
-        <form method="post" name="myemailform" action="sendEmail.php">
+
+        <!-- Form produces error when sending an email
+            <form method="post" name="myemailform" action="sendEmail.php">
             Enter Name:
             <input type="text" name="name" /> <br />
             Enter Email:
@@ -22,6 +27,7 @@
             <textarea name="message"></textarea> <br />
             <input type="submit" value="Send" />
         </form>
+            -->
     </div>
 </body>
 </html>
